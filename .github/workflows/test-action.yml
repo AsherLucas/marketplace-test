@@ -1,0 +1,11 @@
+name: Test prompt-eval-harness action
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run prompt-eval-harness from Marketplace
+        uses: AsherLucas/prompt-eval-harness@v0.2.0
+        with:
+          cases: cases/cases.yaml

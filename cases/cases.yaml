@@ -1,0 +1,8 @@
+version: 1
+cases:
+  - id: exact-greeting
+    prompt: "Say hello"
+    stub_output: "Hello, world!"
+    expected:
+      - type: exact
+        value: "Hello, world!"
