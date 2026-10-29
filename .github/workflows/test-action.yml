@@ -6,6 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run prompt-eval-harness from Marketplace
-        uses: AsherLucas/prompt-eval-harness@v0.2.0
+        uses: AsherLucas/prompt-eval-harness@v0.3.0
         with:
           cases: cases/cases.yaml
